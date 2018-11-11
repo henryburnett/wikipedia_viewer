@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+  <link rel="stylesheet" type="text/css" href="wikipedia_viewer.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <div class="background">
+   <div class="content">
+     <div class="search"><h1>WIKIPEDIA SEARCH</h1>
+
+       <input type="text" value="" id="searchBar" oninput="quickSearch()"></input>
+     <button type="submit" class="btn btn-primary" onclick="fullSearch()">MORE RESULTS</button>
+     <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button type="submit" class="btn btn-random">RANDOM SEARCH</button></a>
+
+     </div>
+
+    <div class="results">
+      <div class="data" id="searchResults">
+        <a id="anchors0" class="results-anchors" href="#" target="_blank">
+        <div id="resultsDiv0" class="results-div">
+          <h2 id="headers0" class="results-header"></h2>
+          <p id="resultsP0" class="results-p"></p>
+          </div></a>
+    </div>
+    <p id="copyright">&copy; 2017 Henry Burnett</p>
+
+    </div>
+  </div>
+  <script type="text/javascript" src="wikipedia_viewer.js"></script>
+</body>
+</html>

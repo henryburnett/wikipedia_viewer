@@ -1,0 +1,136 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.background {
+  background-image: url("https://i.pinimg.com/originals/51/f8/f5/51f8f53b6cab32db3810bc396c280158.jpg");
+  background-attachment: fixed;
+  background-position: center top;
+	background-size: 100%;
+  padding-top;
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.content {
+  padding-top: 15px;
+  margin: 0 auto;
+  min-width: 90%;
+  min-height: 100vh;
+  height: auto;
+
+}
+
+.search h1 {
+  color: #F5F5F5;
+}
+
+.search {
+  border-radius: 2px;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 75px;
+  text-align: center;
+
+}
+
+#searchBar {
+  width: 90%;
+  margin: 15px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  float: center;
+  background-color: #F5F5F5;
+  border-radius: 6px;
+  box-shadow: 3px 3px 2px 1px rgba(0,0,0,.2), 6px 6px 4px 3px rgba(0,0,0,.15);
+}
+
+input:focus, #searchBar:focus {
+    outline:none;
+}
+
+.btn, .btn-primary {
+  display: inline;
+  float: center;
+  margin: 10px;
+  font-size: .85em;
+  -webkit-appearance: none;
+  -moz-box-shadow: 2px 2px 1px .5px rgba(0,0,0,.2), 3px 3px 2px 1.5px rgba(0,0,0,.15);
+  -webkit-box-shadow: 2px 2px 1px .5px rgba(0,0,0,.2), 3px 3px 2px 1.5px rgba(0,0,0,.15);
+  box-shadow: 2px 2px 1px .5px rgba(0,0,0,.2), 3px 3px 2px 1.5px rgba(0,0,0,.15);
+}
+
+.btn-random {
+  background-color: #F5F5F5;
+}
+
+
+
+.btn-random:hover{
+  background-color: lightgray;
+}
+
+#resultsDiv0 {
+  display: none;
+}
+
+.results {
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 75%;
+  height: auto;
+  border-radius: 2px;
+
+}
+
+#searchResults {
+
+  height: auto;
+  width: 75%;
+  margin: 0 auto;
+  font-size: 1em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.results-div{
+  border: 2px solid black;
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  display: none;
+  box-shadow: 3px 3px 2px 1px rgb(0,0,0,.2), 6px 6px 4px 3px rgb(0,0,0,.15);
+}
+
+.results-div:hover, .results-div:focus, .results-div:active{
+  -moz-box-shadow:    inset 0 0 7.5px #000000;
+  -webkit-box-shadow: inset 0 0 7.5px #000000;
+  box-shadow:         inset 0 0 7.5px #000000;
+  text-decoration: none !important;
+	-moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+  color: black;
+}
+
+.results-div a:hover{
+  color: black;
+  text-decoration: none !important;
+}
+
+a, a:link, a:visited,  a:hover, a:active,  a:focus{
+  color: black;
+  text-decoration: none !important;
+}
+
+#copyright {
+  color: #F8F8F8;
+  text-align: center;
+  font-size: .75em;
+}
