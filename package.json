@@ -1,0 +1,23 @@
+{
+  "name": "wikipedia_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wikipedia_viewer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "httpster -p 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryburnett/wikipedia_viewer.git"
+  },
+  "author": "Henry Burnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryburnett/wikipedia_viewer/issues"
+  },
+  "homepage": "https://github.com/henryburnett/wikipedia_viewer#readme",
+  "devDependencies": {
+    "httpster": "^1.0.4"
+  }
+}
